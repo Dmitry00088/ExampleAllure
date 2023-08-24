@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace ExampleAllure
 {
-	[AllureSuite("Проект: создание проекта")]
+	[AllureSuite("РџСЂРѕРµРєС‚: СЃРѕР·РґР°РЅРёРµ РїСЂРѕРµРєС‚Р°")]
 	[Parallelizable(ParallelScope.Fixtures)]
 	public class ProjectTests : Base
 	{
@@ -11,9 +11,9 @@ namespace ExampleAllure
 		{
 			await SetUpAsync(async () =>
 			{
-				// пример, как это выглядит в allure report https://skrinshoter.ru/sLTOvx2R0Yo?a - все хорошо
-				// после импорта результатов в TestOps https://skrinshoter.ru/sLTa2KpLBeu?a - плохо, вместо имени упавшего класса unknown
-				throw new Exception("Произошла ошибка в onetime");
+				// РїСЂРёРјРµСЂ, РєР°Рє СЌС‚Рѕ РІС‹РіР»СЏРґРёС‚ РІ allure report https://skrinshoter.ru/sLTOvx2R0Yo?a - РІСЃРµ С…РѕСЂРѕС€Рѕ
+				// РїРѕСЃР»Рµ РёРјРїРѕСЂС‚Р° СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РІ TestOps https://skrinshoter.ru/sLTa2KpLBeu?a - РїР»РѕС…Рѕ, РІРјРµСЃС‚Рѕ РёРјРµРЅРё СѓРїР°РІС€РµРіРѕ РєР»Р°СЃСЃР° unknown
+				throw new Exception("РџСЂРѕРёР·РѕС€Р»Р° РѕС€РёР±РєР° РІ onetime");
 			});
 		}
 
