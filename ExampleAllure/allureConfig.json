@@ -1,0 +1,10 @@
+﻿{
+	"allure": {
+		"directory": "../../allure-results",
+
+		"links": [
+			"https://portal.smartcat.ai/youtrack/issue/{issue}",
+			"http://allure.k9s.ya.sc.local/project/1/test-cases/{tms}"
+		]
+	}
+}
