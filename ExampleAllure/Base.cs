@@ -1,6 +1,6 @@
 ﻿using NUnit.Allure.Core;
 using NUnit.Framework;
-using Allure.Commons;
+using Allure.Net.Commons;
 
 namespace ExampleAllure
 {
